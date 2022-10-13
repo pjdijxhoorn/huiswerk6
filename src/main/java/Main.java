@@ -1,6 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
+        // sorry had wat moeite met github koppelen en heb daardoor per ongeluk alles te vroeg gepushd naar de main branch.
         System.out.println("Hello Maven");
 
         Person grootvader = new Person("grootvader", "dijxkie","male", 67);
@@ -39,6 +40,9 @@ public class Main {
         System.out.println();
 
         System.out.println(grootvader.getGrandchildren().get(0).getName());
+
+
+
 
     }
 }
